@@ -65,7 +65,7 @@
 {{-- Catatan satuan --}}
 <div class="card mb-4">
     <div class="card-body">
-        <p class="mb-0 text-muted">
+        <p class="mb-0">
             <i class="fas fa-info-circle mr-1"></i>
             Satuan barang diisi bebas sesuai kebutuhan — misalnya: <strong>pcs</strong>, <strong>pack</strong>, <strong>box</strong>, <strong>kg</strong>, <strong>liter</strong>, dan lain-lain.
         </p>
