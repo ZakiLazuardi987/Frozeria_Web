@@ -27,7 +27,7 @@ class BarangController extends Controller
             $query->kategori($request->kategori_id);
         }
 
-        $barangs      = $query->orderBy('nama_barang')->paginate(10)->withQueryString();
+        $barangs      = $query->orderBy('nama_barang')->paginate(5)->withQueryString();
         $kategoris    = Kategori::orderBy('nama_kategori')->get();
         $totalBarang   = Barang::count();
         $totalKategori = Kategori::count();
