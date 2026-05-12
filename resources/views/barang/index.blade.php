@@ -102,6 +102,12 @@
                         <th class="text-center">Aksi</th>
                     </tr>
                 </thead>
+                        {{-- <th class="pl-4">
+                            <a href="{{ request()->fullUrlWithQuery(['sort' => 'nama_barang', 'dir' => request('sort') == 'nama_barang' && request('dir') == 'asc' ? 'desc' : 'asc']) }}" class="text-dark">
+                                Nama barang
+                                <i class="fas fa-sort ml-1"></i>
+                            </a>
+                        </th> --}}
                 <tbody>
                     @forelse($barangs as $barang)
                         <tr>

@@ -27,7 +27,16 @@ class BarangController extends Controller
             $query->kategori($request->kategori_id);
         }
 
-        $barangs      = $query->orderBy('nama_barang')->paginate(5)->withQueryString();
+        $barangs      = $query->orderBy('nama_barang')->paginate(10)->withQueryString();
+        // $sortBy = $request->get('sort', 'nama_barang');
+        // $sortDir = $request->get('dir', 'asc');
+
+        // $allowedSort = ['nama_barang', 'jumlah_stok', 'harga_jual'];
+        // if (!in_array($sortBy, $allowedSort)) {
+        //     $sortBy = 'nama_barang';
+        // }
+
+        // $barangs = $query->orderBy($sortBy, $sortDir)->paginate(5)->withQueryString();
         $kategoris    = Kategori::orderBy('nama_kategori')->get();
         $totalBarang   = Barang::count();
         $totalKategori = Kategori::count();

@@ -243,8 +243,8 @@
         <div class="container-fluid">
             {{-- Brand --}}
             <a href="{{ route('barang.index') }}" class="navbar-brand">
-                <i class="fas fa-snowflake mr-1"></i>
-                <span>Frozeria Stok</span> 
+                <span><i class="fas fa-snowflake mr-1"></i>
+                Frozeria Stok</span> 
             </a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">

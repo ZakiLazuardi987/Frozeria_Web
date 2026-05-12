@@ -72,9 +72,6 @@
     </div>
 </div>
 
-{{-- ============================================================ --}}
-{{-- Informasi Developer — isi sesuai data diri kamu             --}}
-{{-- ============================================================ --}}
 <div class="card border-0" style="background-color: #1e3a5f; border-radius: 10px;">
     <div class="card-body p-4 text-white">
         <h6 class="font-weight-bold mb-3" style="color: #74c0fc;">
